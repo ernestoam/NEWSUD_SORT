@@ -1,7 +1,7 @@
 import pandas as pd
 dfrot = pd.read_csv("/Users/ernestomartinez/Documents/Winter17/Math180/newsudrot.csv")
 df1 = pd.read_csv("/Users/ernestomartinez/Documents/Winter17/Math180/minstep.csv")
-dfshift = pd.read_csv("/Users/ernestomartinez/Documents/Winter17/Math180/newsudshift.csv")
+dfshift = pd.read_csv("/Users/ernestomartinez/Documents/Winter17/Math180/newsudshift.csv", dtype = object)
 newsudrotsort = pd.DataFrame()
 newsudshiftsort = pd.DataFrame()
 for i in range(0,91):
